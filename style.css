@@ -1,0 +1,403 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --Soft-red: hsl(7, 99%, 70%);
+    --Dark-desaturated-cyan: hsl(167, 40%, 24%);
+    --Dark-moderate-cyan : hsl(168, 24%, 57%);
+    --Yellow-color: hsl(51, 100%, 49%)
+}
+header{
+    border: 3px solid red;
+    height: 100vh;
+    background-image: url("./images/desktop/image-header.jpg");
+    background-position: center;
+    background-size: cover;
+}
+header nav{
+    border: 3px solid green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+header nav ul{
+    border: 3px solid purple;
+    display: flex;
+    gap: 20px;
+    list-style:none;
+    color: white;
+}
+nav .harmburger-times{
+    display: none;
+}
+
+header h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Barlow", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+header .arrow{
+    border: 3px solid brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    
+}
+
+/* section 1 */
+.egg-section{
+    border: 3px solid green;
+    display: flex;
+}
+.egg-content{
+    border: 3px solid purple;
+    width: 50%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.egg-text{
+    border: 3px solid brown;
+    max-width: 450px;
+
+}
+.egg-text h1{
+    font-size: 50px;
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+.egg-text p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.egg-text h4{
+    border-bottom: 8px solid var(--Yellow-color) ;
+    display: inline-block;
+    line-height: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius:10px;
+}
+
+.egg-image{
+    border: 3px solid red;
+    width: 50%;
+    height: 500px;
+    background-image: url("./images/desktop/image-transform.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* section 2 */
+.grid-section{
+    border: 3px solid red;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.cup-image{
+    border: 3px solid green;
+    height: 500px;
+    background-image: url("./images/desktop/image-stand-out.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.cup-content{
+    border: 3px solid green;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cup-text{
+    border: 3px solid brown;
+    max-width: 450px;
+}
+.cup-text h1{
+    font-size: 50px;
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+.cup-text p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.cup-text h4{
+    border-bottom: 8px solid var(--Soft-red) ;
+    display: inline-block;
+    line-height: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius:10px;
+}
+
+
+.graphic-image{
+    border: 3px solid green;
+    height: 500px;
+    background-image: url("./images/desktop/image-graphic-design.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.graphic-text{
+    border: 3px solid purple;
+    max-width: 500px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.graphic-text h1{
+    border: 3px solid green;
+    font-family: "Fraunces", serif;
+}
+.graphic-text p{
+    max-width: 400px;
+    margin-top: 20px;
+}
+.photography-image{
+    border: 3px solid green;
+    height: 500px;
+    background-image: url(./images/desktop/image-photography.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.photgraphy-text{
+    border: 3px solid gray;
+    max-width: 400px;
+    text-align: center;
+    margin-bottom: 5%;
+    
+}
+.photgraphy-text h1{
+    border: 3px solid green;
+    font-family: "Fraunces", serif;
+}
+.photgraphy-text p{
+    max-width: 300px;
+    margin-top: 20px;
+   
+}
+.testimonial-section-grid{
+    border: 3px solid blue;
+}
+.Testimonial-contents{
+    border: 3px solid red;
+    display: grid;
+    justify-self: center;
+    gap: 50px;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 10%;
+}
+.client-testiomonial-header{
+    border: 3px solid black;
+    font-family: "Fraunces", serif;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.testimonialOne{
+    border: 3px solid darkmagenta;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    align-items:center;
+    text-align: center;
+    margin: 0px;
+}
+.testimonialOne img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.testimonialOne p{
+    max-width: 300px;
+    margin: 0%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.testimonialOne h4{
+    font-family: "Fraunces", serif;
+}
+.testimonialOne #role{
+    max-width: 300px;
+    margin: 0%;
+    margin-bottom: 20px;
+}
+
+.testimonialTwo{
+    border: 3px solid darkorchid;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    align-items:center;
+    text-align: center;
+    margin: 0;
+}
+.testimonialTwo img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}.testimonialTwo p{
+    max-width: 300px;
+    margin: 0%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.testimonialTwo h4{
+    font-family: "Fraunces", serif;
+}
+
+.testimonialTwo #role{
+    max-width: 300px;
+    margin: 0%;
+    margin-bottom: 20px;
+}
+.testimonialThree{
+    border: 3px solid salmon;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+}
+.testimonialThree img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.testimonialThree p{
+    max-width: 300px;
+    margin: 0;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.testimonialThree h4{
+    font-family: "Fraunces", serif;
+}
+
+.testimonialThree #role{
+    max-width: 300px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.Design-Images-main {
+    border: 1px solid goldenrod;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: auto;
+    width: auto;
+    box-sizing: border-box;
+}
+.Design-Images-Grid img{
+    width: 100%; /* Makes images responsive */
+    height: auto; /* Maintains aspect ratio */
+    object-fit: cover; /* Ensures proper fitting */
+    display: block;
+    /* border: 30px solid orangered; */
+}
+.Page-Footer{
+    background-color: var(--Dark-moderate-cyan);
+    border: 3px solid goldenrod;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+}
+.Page-Footer-logo{
+    margin-top: 30px;
+    border: 2px solid saddlebrown;
+    
+}
+.Page-Footer-Menu ul{
+    border: 3px solid purple;
+    display: flex;
+    gap: 20px;
+    list-style:none;
+    color: white;
+    margin-top: 30px;
+   
+}
+.social-media-bar ol{
+    border: 3px solid purple;
+    display: flex;
+    gap: 50px;
+    list-style:none;
+    color: white;
+    margin-top: 30px;
+   
+}
+
+
+
+@media(max-width:700px){
+    .egg-section{
+        flex-direction: column-reverse;
+    }
+   header nav ul{
+        display: none;
+    }
+    nav .harmburger-times{
+        display: block;
+    }
+    .egg-content{
+        width: 100%;
+        height: 400px;
+        text-align: center;
+    }
+    .egg-image{
+        width: 100%;
+        height: 400px;
+        background-image: url("./images/mobile/image-transform.jpg");
+    }
+    .grid-section{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .cup-content{
+        width: 100%;
+        height: 500px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .Testimonial-contents{
+        grid-template-columns: repeat(1, 1fr);
+        margin-bottom: 10%;
+    }
+    .Design-Images-main {
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+}
